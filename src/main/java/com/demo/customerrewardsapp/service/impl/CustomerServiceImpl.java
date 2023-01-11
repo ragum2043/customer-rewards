@@ -6,7 +6,12 @@ import com.demo.customerrewardsapp.repository.CustomerRepository;
 import com.demo.customerrewardsapp.service.CustomerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
+/**
+ * 
+ * Customer service business logic implementation
+ * @author Ragu
+ *
+ */
 @Service
 @RequiredArgsConstructor
 public class CustomerServiceImpl implements CustomerService {

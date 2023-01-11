@@ -7,7 +7,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 import javax.servlet.http.HttpServletRequest;
-
+/**
+ * 
+ * Controller advice to handle exceptions
+ * @author Ragu
+ *
+ */
 @ControllerAdvice
 public class ControllerExceptionHandler {
 

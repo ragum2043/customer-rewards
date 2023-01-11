@@ -2,7 +2,12 @@ package com.demo.customerrewardsapp.model;
 
 
 import lombok.Data;
-
+/**
+ * 
+ * RewardPoints POJO
+ * @author Ragu
+ *
+ */
 @Data
 public class RewardPoints {
 

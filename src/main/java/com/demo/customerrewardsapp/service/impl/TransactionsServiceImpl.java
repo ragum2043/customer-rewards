@@ -5,7 +5,12 @@ import com.demo.customerrewardsapp.repository.TransactionsRepository;
 import com.demo.customerrewardsapp.service.TransactionsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
+/**
+ * 
+ * Transactions business logc implementation
+ * @author Ragu
+ *
+ */
 @Service
 @RequiredArgsConstructor
 public class TransactionsServiceImpl implements TransactionsService {

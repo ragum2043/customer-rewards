@@ -13,6 +13,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 
+ * CustomerRewards Controller class is used to retrieve the rewards for requested customer
+ * @author Ragu
+ *
+ */
 @RestController
 @RequestMapping("/rewards/customer")
 @AllArgsConstructor(onConstructor = @__(@Autowired))

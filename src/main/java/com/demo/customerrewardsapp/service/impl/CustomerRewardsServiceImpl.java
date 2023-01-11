@@ -13,7 +13,12 @@ import java.time.Instant;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
-
+/**
+ * 
+ * Customer rewards business logic implementation
+ * @author Ragu
+ *
+ */
 @Service
 @RequiredArgsConstructor
 public class CustomerRewardsServiceImpl implements CustomerRewardsService {

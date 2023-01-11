@@ -9,6 +9,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * 
+ * This is a Customer Controller used to add and retrieve customes
+ * @author Ragu
+ *
+ */
 @RestController
 @RequestMapping("/customer")
 @AllArgsConstructor(onConstructor = @__(@Autowired))

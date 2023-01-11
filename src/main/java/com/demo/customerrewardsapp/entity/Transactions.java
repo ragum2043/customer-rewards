@@ -6,6 +6,12 @@ import javax.persistence.*;
 
 import java.sql.Timestamp;
 
+/**
+ * 
+ * Transactions entiry class
+ * @author Ragu
+ *
+ */
 @Data
 @Entity
 @Table(name = "TRANSACTIONS")

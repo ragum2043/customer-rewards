@@ -4,6 +4,12 @@ import lombok.Data;
 
 import javax.persistence.*;
 
+/**
+ * 
+ * Customer entiry class
+ * @author Ragu
+ *
+ */
 @Data
 @Entity
 @Table(name = "CUSTOMER")
